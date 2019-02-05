@@ -7,10 +7,10 @@ class Anagram
   end
   
   def match(list)
-    list.split(" ").each do |w| if w.sort == word.sort return w else []
+    list.split(" ").each do |w| w.sort == word.sort 
   end 
 end
-  end
+  
   
   
 end
