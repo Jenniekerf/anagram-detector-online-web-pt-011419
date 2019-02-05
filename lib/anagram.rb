@@ -6,7 +6,7 @@ class Anagram
   @word = word
   end
   
-  def @match(list)
+  def match(list)
     list.split(" ").each do |w| if w.sort == word.sort return w else []
   end 
 end
